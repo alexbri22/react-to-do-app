@@ -7,7 +7,7 @@ function Task(props){
     const {title, id, isDone} = props;
     const {toDoItems, setToDoItems, activeFilter, setActiveFilter, isLightTheme, setTheme} = useContext(ToDoContext);
 
-    let isFirst = id == 0;
+    let isFirst = props.id == 0;
 
     function removeTask(){
         setToDoItems(toDoItems.filter((val) => (val.title !== title)));
