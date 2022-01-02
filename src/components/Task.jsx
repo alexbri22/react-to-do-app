@@ -7,7 +7,7 @@ function Task(props){
     const {title, id, isDone} = props;
     const {toDoItems, setToDoItems, activeFilter, setActiveFilter, isLightTheme, setTheme} = useContext(ToDoContext);
 
-    let isFirst = props.id == 0;
+    let isFirst = props.id === 0;
 
     function removeTask(){
         setToDoItems(toDoItems.filter((val) => (val.title !== title)));
@@ -29,8 +29,8 @@ function Task(props){
     }
 
     return (
-        
-        <div style={{borderRadius: isFirst ? "8px 8px 0 0" : "0"}, themeStyle} className="task">
+       
+        <div style={Object.assign(themeStyle,{borderRadius: isFirst ? "8px 8px 0 0" : "0"})} className="task">
             <div onClick={toggleTask} className={"create-to-do-circle pointer" + (isDone ? " done-circle" : "")}>
                 {isDone ? <svg stroke="currentColor" fill="currentColor"  style={{backgroundImage:`url(${checkIcon})`}} className="check-icon"></svg> : null}
             </div>
