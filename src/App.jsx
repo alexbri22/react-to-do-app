@@ -7,20 +7,35 @@ function App(){
 
     // Default to do items
     const [toDoItems, setToDoItems] = useState([{
-                    title:"Insultar al mario",
+                    title:"Complete online Java Script course",
                     isDone: true,
                     isFirst: true
                 },
                 {
-                    title:"Asistir al Training Camp",
+                    title:"Jog around the park 3x",
                     isFirst: false,
                     isDone: false
                 },
                 {
-                    title:"Ponerse una pedota",
+                    title:"10 minutes meditation",
                     isFirst: false,
                     isDone: false
-                },]);
+                },
+                {
+                    title:"Read for 1 hour",
+                    isFirst: false,
+                    isDone: false
+                },
+                {
+                    title:"Pick up groceries",
+                    isFirst: false,
+                    isDone: false
+                },
+                {
+                    title:"Complete To Do App on Frontend Mentor",
+                    isFirst: false,
+                    isDone: false
+                }]);
 
     // App context elements
     const [activeFilter, setActiveFilter] = useState("all");
