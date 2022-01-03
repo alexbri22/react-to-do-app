@@ -14,9 +14,11 @@ All of the following actions can be done with just a click and are rendered with
 
 
 ## Extras
-  Dark theme
-  
-  ![dark theme](https://user-images.githubusercontent.com/88918274/147894482-e844eb0b-57e7-4dac-bcc5-c01cfd953b03.jpg)
+Dark theme
 
-  - Responsive design (< 468 px)
-  - Filter by status / Clear completed / Left items counter
+![dark theme](https://user-images.githubusercontent.com/88918274/147894482-e844eb0b-57e7-4dac-bcc5-c01cfd953b03.jpg)
+
+Responsive design for mobile devices (< 468 px)
+![mobile](https://user-images.githubusercontent.com/88918274/147894601-8e6df82f-e71e-44c6-9fd9-be5a45a277c8.png)
+
+Filter by status / Clear completed / Left items counter
