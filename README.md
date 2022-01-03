@@ -14,7 +14,9 @@ All of the following actions can be done with just a click and are rendered with
 
 
 ## Extras
-  - Dark theme
-  - Filter by status
-  - Responsive design
-  - Clear completed / Left items counter
+  Dark theme
+  
+  ![dark theme](https://user-images.githubusercontent.com/88918274/147894482-e844eb0b-57e7-4dac-bcc5-c01cfd953b03.jpg)
+
+  - Responsive design (< 468 px)
+  - Filter by status / Clear completed / Left items counter
