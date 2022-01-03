@@ -4,7 +4,7 @@ import ToDoContext from "../context/ToDoContext";
 function GroupFilter(){
 
     const {toDoItems, setToDoItems, activeFilter, setActiveFilter, isLightTheme, setTheme} = useContext(ToDoContext);
-    const itemCount = toDoItems.length;
+    const itemCount = toDoItems.filter(task => !task.isDone).length;
 
     // Handles item deletion
     function removeCompleted(){
