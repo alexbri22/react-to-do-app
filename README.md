@@ -4,7 +4,7 @@ This project is a web app with classical to-do list functionality where you can 
 The main reason for this project is to learn about React JS basics while developing a simple but nice web application, at the end it was much better than I expected because I had to learn a lot of new concepts in order to complete the app development. 
 
 ## Basic features
-All of the following actions can be done with just a click and are rendered with React, that way you don't have to reload the page to see the changes reflected :)
+All of the following actions can be done with just a click and are rendered with React, that way you don't have to reload the page to see the changes reflected.
   - Add a new task (press enter after adding the text)
   - Mark task as completed
   - Remove existing task
@@ -19,6 +19,13 @@ Dark theme
 ![dark theme](https://user-images.githubusercontent.com/88918274/147894482-e844eb0b-57e7-4dac-bcc5-c01cfd953b03.jpg)
 
 Responsive design for mobile devices (< 468 px)
+
 ![mobile](https://user-images.githubusercontent.com/88918274/147894601-8e6df82f-e71e-44c6-9fd9-be5a45a277c8.png)
 
 Filter by status / Clear completed / Left items counter
+
+![filters](https://user-images.githubusercontent.com/88918274/147894678-60d68626-6fdd-4ba8-8645-d2bc422cea38.jpg)
+
+The complete app is 100% free can be found at https://to-do-alexbri.herokuapp.com/
+
+This entire project is the solution to the Frontend Mentor To Do App challenge and can be found at https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW a special thanks to this platform that makes the life easier for beginners and intermediate developers :)
