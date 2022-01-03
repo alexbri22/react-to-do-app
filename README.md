@@ -9,6 +9,9 @@ All of the following actions can be done with just a click and are rendered with
   - Mark task as completed
   - Remove existing task
 
+![Basic-features](https://user-images.githubusercontent.com/88918274/147894375-3bdce119-bb19-4882-863c-3c84dc49224b.jpg)
+
+
 
 ## Extras
   - Dark theme
